@@ -44,6 +44,23 @@ After running it on my own the accuracy drop I encountered is shown below:
 
 
 
+/prompt_injection folder
+    promptinjection.py and promptinjectionllm.py
+        - this code uses math (gradient descent) to generate a "numeric" input pattern that forces the model to output a specific piece of text.
+        - The class UniversalPromptInjectionLLM attempts to find a specific input vector (an embedding) that, when fed into the model, minimizes the difference between the model's output and a target_text.
+        - This is a white-box technique, meaning it requires full access to the model's weights and gradients. It does not work on black-box APIs (like ChatGPT or Claude via web interface) because it needs to backpropagate through the model's neural              network.
+        - The promptinjectionllm.py has the class definition and promptinjection.py has the implementation. Run promptinjection.py for the output.
+
+**The following was my output when i ran the code:**
+
+
+
+<img src="gpt_2_injected.png" alt="Plotted Accuracies" width="400"/>
+
+
+
+
+
 
 
 
