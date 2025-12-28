@@ -29,11 +29,12 @@ app_fgsm.py
     • Accepts an input image, label, and epsilon, and returns success status and predictions.
 
 mnist_model.pth
-  - I have not included the pretrained weights of the model in this zip file. This zip is being loaded in hte mnist_model.py file.
+  - I have included the pretrained weights of the model in this zip file. This zip is being loaded in hte mnist_model.py file.
 
 
+![Accuracies](Accuracies.png)
 
-
+![Plotted Accuracies](Accuracies_plotted.png)
 
 
 
