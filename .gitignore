@@ -1,0 +1,31 @@
+# --- Python Basics ---
+# Compiled python modules (bytecode)
+__pycache__/
+*.py[cod]
+
+
+# --- Environments ---
+# Virtual Environment folder
+venv/
+env/
+.env
+
+
+# --- Editor/IDE Configs ---
+# VS Code settings (optional, but usually good to ignore personal settings)
+.vscode/
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+
+# --- Project Specific ---
+# Data folder (Datasets)
+data/
+
+
+
+
+# If you decide NOT to commit the trained model, uncomment the line below:
+# *.pth
