@@ -32,10 +32,14 @@ mnist_model.pth
   - I have included the pretrained weights of the model in this zip file. This zip is being loaded in hte mnist_model.py file.
 
 
-![Accuracies](Accuracies.png)
+After running it on my own the accuracy drop I encountered is shown below:
 
-![Plotted Accuracies](Accuracies_plotted.png)
 
+<img src="Accuracies.png" alt="Accuracies" width="400"/>
+
+
+
+<img src="Accuracies_plotted.png" alt="Plotted Accuracies" width="400"/>
 
 
 
