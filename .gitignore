@@ -8,6 +8,7 @@ __pycache__/
 # Virtual Environment folder
 venv/
 env/
+.venv/
 .env
 
 
