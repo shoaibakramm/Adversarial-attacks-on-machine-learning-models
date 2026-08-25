@@ -39,8 +39,6 @@ After running it on my own the accuracy drop I encountered is shown below:
 
 
 
-<img src="Accuracies_plotted.png" alt="Plotted Accuracies" width="400"/>
-
 
 
 
